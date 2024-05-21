@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+  background: hsla(189, 100%, 50%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%,
+    hsla(329, 100%, 50%, 1) 100%
+  );
+}
+
+.text-gradient {
+  background: linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%,
+    hsla(329, 100%, 50%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(189, 100%, 35%, 1) 0%,
+    hsla(329, 100%, 35%, 1) 100%
+  );
+}
