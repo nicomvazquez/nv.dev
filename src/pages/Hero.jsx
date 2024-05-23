@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex justify-between items-center">
+    <section className="flex justify-between gap-10 items-center">
       <div className="flex flex-col gap-5">
         <h1 className="text-5xl md:text-6xl font-medium">
           Impulsamos tu negocio <br />{" "}
@@ -21,7 +21,7 @@ function Hero() {
             href="https://wa.link/fnh2h2"
             className="bg-gradient text-xl flex items-center gap-3 px-5 py-3 rounded-full"
           >
-            contacto <FaWhatsapp />
+            Contacto <FaWhatsapp />
           </a>
           <a
             href="https://www.instagram.com/nv.dev_/"
@@ -32,7 +32,11 @@ function Hero() {
         </div>
       </div>
 
-      <img src="./home-img.png" alt="" className="hidden sm:block" />
+      <div className="relative flex flex-1">
+        <img src="./home-img.png" alt="" className="hidden sm:block z-[5] w-full h-full relative" />
+
+        <div className="absolute pink__gradient w-[80%] left-28 h-[80%] rounded-full top-0 z-[0]" />
+      </div>
     </section>
   );
 }

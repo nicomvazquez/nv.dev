@@ -1,6 +1,6 @@
 export const nav = [
   {
-    title: "Home",
+    title: "Inicio",
     path: "hero",
   },
   {

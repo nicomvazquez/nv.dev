@@ -31,3 +31,12 @@
     hsla(329, 100%, 35%, 1) 100%
   );
 }
+
+.pink__gradient {
+  background: linear-gradient(
+    180deg,
+    hsla(189, 100%, 35%, 1) 0%,
+    hsla(329, 100%, 35%, 1) 100%
+  );
+  filter: blur(123px);
+}

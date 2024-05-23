@@ -32,7 +32,7 @@ function Navbar() {
         href="https://wa.link/fnh2h2"
         className="md:hidden bg-gradient text-md flex items-center gap-2 px-3 py-2 rounded-full"
       >
-        conatacto
+        Conatacto
         <FaWhatsapp />
       </a>
     </nav>
