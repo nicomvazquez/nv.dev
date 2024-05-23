@@ -5,7 +5,9 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
   return (
-    <section className="text-center">
+    <section className="relative text-center">
+      <div className="absolute pink__gradient w-[50%] left-full h-[50%] rounded-full top-0 z-[0]" />
+
       <h1 className="text-6xl font-medium text-gradient">
         Hablemos sobre su proyecto
       </h1>

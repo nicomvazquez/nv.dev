@@ -5,11 +5,11 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex justify-between gap-10 items-center">
-      <div className="flex flex-col gap-5">
-        <h1 className="text-5xl md:text-6xl font-medium">
-          Impulsamos tu negocio <br />{" "}
-          <span className="text-gradient">con tecnologia</span> <br /> a medida
+    <section className="flex justify-between gap-16 items-center">
+      <div className="flex flex-col gap-7">
+        <h1 className="text-5xl md:text-7xl font-medium">
+          Todo el software que<br />{" "}
+          <span className="text-gradient">necesitas a un click</span> <br /> de distancia
         </h1>
         <p className="text-md md:text-2xl text-neutral-500">
           Desarrollo de software personalizado que se adapta <br /> a tus
