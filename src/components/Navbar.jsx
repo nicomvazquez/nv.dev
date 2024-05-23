@@ -25,7 +25,7 @@ function Navbar() {
           href="https://wa.link/fnh2h2"
           className=" bg-gradient text-xl flex items-center gap-3 px-5 py-3 rounded-full"
         >
-          contacto <FaWhatsapp />
+          Contacto <FaWhatsapp />
         </a>
       </div>
       <a
