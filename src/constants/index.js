@@ -37,4 +37,9 @@ export const proyects = [
     title: "RaceDetailing sitio web",
     link: "https://nicomvazquez.github.io/landing-detailing/",
   },
+  {
+    img: "./iphone-market.png",
+    title: "iPhone Market",
+    link: "https://mate-mateico-e-commerce.onrender.com/",
+  },
 ];
