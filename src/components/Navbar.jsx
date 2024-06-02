@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function Navbar() {
   return (
     <nav className="flex justify-between items-center">
-      <img src="./logo.png" alt="" className="max-w-[200px] md:max-w-[270px]" />
+      <img src="./logo.png" alt="" className="max-w-[180px] md:max-w-[250px]" />
 
       <div className="hidden md:flex gap-10 items-center ">
         <a
